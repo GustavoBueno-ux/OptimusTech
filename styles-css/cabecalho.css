@@ -1,0 +1,52 @@
+.cabecalho {
+    position: fixed;
+    top: 0;
+}
+
+.cabecalho__conteudo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 5em;
+    background-color: var(--branco);
+}
+
+.cabecalho__logo {
+    margin: 0 7em;
+}
+
+.cabecalho__botoes {
+    display: flex;
+    gap: 3.5em;
+    margin: 0 3em;
+}
+
+.cabecalho__botoes__item {
+    text-decoration: none;
+    color: var(--cinza);
+    font-size: 16px;
+}
+
+.cabecalho__cadastro {
+    display: flex;
+    margin: 0 0 0 49.5em;
+    gap: 3.5em;
+    align-items: center;
+}
+
+.cabecalho__cadastro__entrar {
+    text-decoration: none;
+    color: var(--cinza);
+    font-size: 16px;
+}
+
+.cabecalho__cadastro__cadastrar {
+    text-decoration: none;
+    margin-right: 6%;
+    padding: 0.6em 1em;
+    background-color: var(--vermelho-escuro);
+    font-size: 16px;
+    color: var(--branco);
+    border-radius: 8px;
+    border: 1px solid var(--vermelho-escuro);
+}

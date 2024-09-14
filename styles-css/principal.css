@@ -1,0 +1,173 @@
+.secao__sobre__nos {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 6em 0;
+}
+
+.secao__sobre__nos__nome {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--vermelho-escuro);
+}
+
+.secao__sobre__nos__titulo {
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0.6em 0;
+}
+
+.secao__sobre__nos__texto {
+    width: 650px;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza);
+}
+
+.metricas {
+    display: flex;
+    align-items: center;
+    margin: 2em 0 6em 20%;
+}
+
+.metrica__item {
+    width: 270px;
+    margin-right: 3em;
+}
+
+.metrica__item__titulo {
+    color: var(--vermelho-escuro);
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.metrica__item__subtitulo {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto);
+    margin: 0.7em 0;
+}
+
+.metrica__item__texto {
+    color: var(--cinza);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.vagas {
+    display: flex;
+    flex-direction: column;
+}
+
+.vagas__abertas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4em;
+}
+
+.vagas__abertas__topo {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--vermelho-escuro);
+    padding: 4px 12px;
+    border-radius: 16px;
+    background-color: var(--vermelho-fundo);
+    margin-top: 3em;
+}
+
+.vagas__abertas__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--preto);
+    margin: 0.5em 0;
+}
+
+.vagas__abertas__texto {
+    color: var(--cinza);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 3.2em;
+}
+
+.vagas__opcoes {
+    margin-bottom: 7em;
+}
+
+.vagas__opcoes__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+    margin-top: 5em;
+}
+
+.vagas__opcao {
+    width: 768px;
+    border: 1px solid var(--cor-borda);
+    border-radius: 16px;
+    margin-top: 2em;
+}
+
+.vagas__opcoes__titulo {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--preto);
+    margin-left: -35em;
+}
+
+.vagas__opcao__titulo {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto);
+    margin: 2em 1.5em;
+}
+
+.vagas__opcao__descricao {
+    margin: 2em 1.8em;
+}
+
+.vagas__opcao__descricao__item {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cinza);
+    margin-right: 2em;
+}
+
+.colaboradores {
+    text-align: center;
+    background-color: var(--vermelho-fundo);
+    width: 1088px;
+    margin-left: 18.5%;
+    margin-bottom: 6em;
+    border-radius: 16px;
+    padding: 3.5em 4.5em;
+}
+
+.colaboradores__subtitulo {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vermelho-escuro);
+}
+
+.colaboradores__titulo {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--preto);
+    margin: 2rem 0;
+}
+
+.colaboradores__nome {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--preto);
+    margin: 1.5rem 0 0.7rem 0;
+}
+
+.colaboradores__descricao {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza);
+}
